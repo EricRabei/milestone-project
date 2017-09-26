@@ -1,0 +1,240 @@
+body {
+
+  font-family: "Roboto", sans-serif;
+
+}
+
+/*** GRID***/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  }
+
+.half-width {
+    width: 600px;
+    float: left;
+  }
+
+.third-width {
+    width: 400px;
+    float: left;
+  }
+
+/*** HEIGHT SETUP  ***/
+#about{
+  height: 650px;
+}
+#skills {
+  height: 750px;
+}
+ #work{
+  height: 750px;
+}
+
+
+/****  HEADER ***/
+header {
+  height: 550px;
+  background: #597081;
+  font-family: "Lora", serif;
+}
+
+header h1 {
+  color:#95B8D1;
+  font-size: 60px;
+  padding: 50px 0;
+}
+
+header h2 {
+  width: 1000px;
+  clear: both;
+  font-family: "Lora", serif;
+  font-size: 40px;
+  color: white;
+  padding: 20px 0;
+}
+
+nav {
+  float: right;
+  padding: 75px 10px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 15px;
+  padding-left: 5px;
+  color: white;
+}
+
+/****  ABOUT SECTION ***/
+
+#about .full-width {
+  padding: 0 100px;
+}
+
+#about h2 {
+  font-family: "Lora", serif;
+  font-size: 40px;
+  color:#95B8D1;
+}
+
+#about p {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  padding-right: 50px;
+  }
+
+#about img{
+  margin: 100px 100px;
+  width: 480px;
+  height: 288px;
+  float: left;
+}
+
+/***  SKILLS SECTION ***/
+#skills {
+  text-align: center;
+}
+
+#skills .full-width{
+  padding: 100px;
+}
+
+#skills .third-width {
+  padding: 100px 0;
+  text-align: center;
+}
+
+#skills h2{
+  font-family: "Lora", serif;
+  font-size: 40px;
+  color:#95B8D1;
+  margin: 0 auto;
+  text-align: left;
+  }
+
+  #skills img{
+  padding-bottom: 30px;
+}
+
+#skills h3{
+    font-family: "Lora", serif;
+    font-size: 30px;
+    width: 200px;
+    color: #95B8D1;
+    margin: 0 auto;
+    }
+
+#skills p {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  line-height: normal;
+  padding: 15px;
+  }
+
+/*** WORK SECTION ***/
+#work {
+  background: #6C756B;
+  padding: 0 100px;
+}
+
+#work .third-width{
+    padding: 100px 0;
+    text-align: center;
+}
+
+#work h2 {
+  font-family: "Lora", serif;
+  font-size: 40px;
+  color:#95B8D1;
+}
+
+#work h3 {
+    font-family: "Lora", serif;
+    font-size: 30px;
+    color:#95B8D1;
+    margin: 0 auto;
+  }
+
+#work img{
+  width:200px;
+  height:200px;
+  border: 5px solid white;
+  margin: 0 auto;
+}
+
+#work  p {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 25px;
+  line-height: normal;
+  padding: 15px;
+  }
+
+/*** CONTACT SECTION ***/
+#contact {
+  height: 900px;
+}
+
+
+#contact h2 {
+  font-family: "Lora", serif;
+  font-size: 40px;
+  color:#95B8D1;
+}
+
+#contact h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  padding-right: 50px;
+}
+
+#contact img {
+    padding: 50px;
+    width: 75px;
+    float: left;
+}
+
+#contact a {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+
+/**** PLACES PAGE CSS ***/
+
+/*** NEWS MOTO AND MMA STYLES ***/
+#news, #moto {
+  height: 650px;
+}
+
+ #news h2 {
+  font-family: "Lora", serif;
+  font-size: 40px;
+  color:#6C756B;
+}
+#news h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: #95B8D1;
+  padding-right: 50px;
+  text-align: center;
+}
+
+#moto h2 {
+ font-family: "Lora", serif;
+ font-size: 40px;
+ color:#6C756B;
+}
+#moto h3 {
+ font-family: "Roboto", sans-serif;
+ font-size: 30px;
+ color: #95B8D1;
+ padding-right: 50px;
+ text-align: center;
+}
